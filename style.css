@@ -2,7 +2,7 @@
 body {
     background-color: darkslategrey;
 }
-table {
+table, tbody, thead {
     border: 1;
     border-color: aqua;
     border-style: double;
