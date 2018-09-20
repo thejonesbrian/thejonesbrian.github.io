@@ -31,7 +31,32 @@
             <label for="email">Email: </label>
             <input name="email" id="email" type="email" placeholder="your email" required>
             <label for="password">Password: </label>
-            <input name="password" id="password" type="password" required>
+            <input name="password" id="password" type="password" required pattern=".{3,}" title="more than 3 characters">
+        </div>
+        <div>
+            <label for="">Birthday: </label>
+            <select name="" id="">
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+            </select>
+            <select name="" id="">
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="20">20</option>
+            </select>
+            <select name="" id="">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+        </div>
+        <div>
+            <label for="agreed">I agree to the terms and conditions: </label>
+            <input type="checkbox" id="agreed" name="agreed">
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit" value="Submit">
         </div>
     </form>
 
