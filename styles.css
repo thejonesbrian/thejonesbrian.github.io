@@ -8,5 +8,7 @@ h4 {
     background: red;
 }
 body {
-    background: pink;
+    background: url(fbd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
