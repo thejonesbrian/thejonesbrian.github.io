@@ -4,6 +4,7 @@ h1 {
 }
 li {
     color: orange;
+    border: 2px solid green;
 }
 h4 {
     background: red;
@@ -12,4 +13,10 @@ body {
     background: url(fbd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#important {
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    background: goldenrod;
 }
