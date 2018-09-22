@@ -1,22 +1,6 @@
-h1 {
-    color: purple;
-    border: 5px solid dodgerblue;
+* {
+    border: 1px solid lightgray;
 }
-li {
-    color: orange;
-    border: 2px solid green;
-}
-h4 {
-    background: red;
-}
-body {
-    background: url(fbd.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#important {
-    color: blue;
-    font-size: 16px;
-    font-style: italic;
-    background: goldenrod;
+li a {
+    color: red;
 }
