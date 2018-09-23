@@ -4,7 +4,7 @@
 }
 /*descendant selector*/
 li a {
-    color: red;
+    background: red;
 }
 /*adjacent selector*/
 h4 + ul {
