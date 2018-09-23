@@ -6,7 +6,7 @@
 li a {
     background: red;
 }
-.main li input {
+div.main > li {
     background: gray;
     color: yellowgreen;
 }
