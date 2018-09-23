@@ -6,7 +6,7 @@
 li a {
     background: red;
 }
-div.main > li {
+div#main > ul {
     background: gray;
     color: yellowgreen;
 }
