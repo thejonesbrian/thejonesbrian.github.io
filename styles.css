@@ -12,6 +12,6 @@ a[href="http://www.google.com"]{
     font-style: italic;
     font-size: 20px;
 }
-ul:nth-of-type(3) {
+ul:nth-of-type(2) {
     background: darkorchid;
 }
