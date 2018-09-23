@@ -1,17 +1,31 @@
+/*star*/
 * {
     border: 1px solid lightgray;
 }
+/*descendant selector*/
 li a {
     color: red;
 }
+/*adjacent selector*/
 h4 + ul {
     border: 3px solid dodgerblue;
 }
+/*attribute selector*/
 a[href="http://www.google.com"]{
     background: saddlebrown;
     font-style: italic;
     font-size: 20px;
 }
+a:link {
+    color: white;
+}
+a:visited {
+    font-style: italic;
+}
+a:hover {
+    color: green;
+}
+/*nth type: selects your defined*/
 ul:nth-of-type(2) {
     background: darkorchid;
 }
