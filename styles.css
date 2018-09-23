@@ -6,6 +6,10 @@
 li a {
     background: red;
 }
+li input {
+    background: gray;
+    color: yellowgreen;
+}
 /*adjacent selector*/
 h4 + ul {
     border: 3px solid dodgerblue;
