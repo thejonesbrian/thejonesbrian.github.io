@@ -11,6 +11,7 @@ p {
     border: 1px solid darkblue;
     padding: 20px;
     margin: auto;
+    float: left;
 }
 h1, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
