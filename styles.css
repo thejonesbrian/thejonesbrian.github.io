@@ -12,7 +12,7 @@ p {
     padding: 20px;
     margin: auto;
 }
-h1 {
+h1, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5.0em;
     text-align: center;
