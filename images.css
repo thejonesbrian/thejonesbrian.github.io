@@ -6,5 +6,8 @@ img {
 p {
     font-family: Montserrat;
     font-size: 25px;
-    
+    margin-left: 1.66%;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px;
 }
