@@ -8,6 +8,6 @@ p {
     font-size: 25px;
     margin-left: 1.66%;
     font-weight: 800;
-    text-decoration: underline;
+    border-bottom: 1px solid lightgray;
     padding: 5px;
 }
