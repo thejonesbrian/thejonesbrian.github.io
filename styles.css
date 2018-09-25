@@ -11,7 +11,14 @@ p {
     border: 1px solid darkblue;
     padding: 20px;
     margin: auto;
+    
+}
+#nav {
     float: left;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
 }
 h1, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
