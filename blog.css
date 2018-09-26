@@ -10,4 +10,9 @@ body {
     border-left: 2px solid #bdc3c7;
     padding-left: 5px;
 }
+.date {
+    color: dodgerblue;
+    text-transform: uppercase;
+    letter-spacing: 10rem;
+}
 
