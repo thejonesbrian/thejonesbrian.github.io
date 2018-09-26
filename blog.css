@@ -13,6 +13,6 @@ body {
 .date {
     color: dodgerblue;
     text-transform: uppercase;
-    letter-spacing: 10rem;
+    letter-spacing: 0.2rem;
 }
 
