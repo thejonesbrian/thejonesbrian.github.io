@@ -2,6 +2,7 @@ body {
     background: url(scenery.jpg);
     background-size: cover;
     background-position: center;
+    font-family: Montserrat;
 }
 #content {
     padding: 20px;
