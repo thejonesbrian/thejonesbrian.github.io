@@ -4,6 +4,7 @@ body {
     background-position: center;
 }
 #content {
+    padding: 20px;
     text-align: center;
     padding-top: 25%;
     background: slategray;
