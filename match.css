@@ -22,6 +22,7 @@ h1 {
     font-size: 5em;
 }
 hr {
-    border: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width: 400px;
 }
