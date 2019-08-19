@@ -3,7 +3,7 @@ body {
     background-color: lightseagreen;
 }
 table, tr {
-    border: 1;
+    border: 2;
     border-color: aqua;
     border-style: double;
 
