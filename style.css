@@ -1,15 +1,96 @@
 
-body {
-    background-color: lightskyblue;
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+  padding: 0.5%;
+  font-family: 'Lato', sans-serif; 
 }
-table, tr {
-    border: 2;
-    border-color: aqua;
-    border-style: double;
-
+header {
+  background: linear-gradient(
+      rgba(30, 115, 172, 0.7), 
+      rgba(112, 57, 153, 0.6)
+    ),  url('https://images.unsplash.com/photo-1547954575-855750c57bd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
 }
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+.heading-main {
+  text-align: center;
+}
+.heading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-box h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  letter-spacing: 1.7rem;
+}
+.heading-box h2 {
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  margin: -20px;
+  padding-bottom: 100px;
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-color: gold;
+  border-radius: 25px;
+  padding: 10px 30px 10px 30px;
+  max-width: 140px; 
+  letter-spacing: 1.2px;
+}
+intro-title {
+  display: flex;
+  flex-direction: row;
+}
+.image-me {
+  border: 0px;
+  border-radius: 50%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3)
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  color: #777;
+  align-items: center;
+  width: 100%;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 140px 0px 140px;
+  align-items: center;
+  
+}
+.about-header {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px
+}
+.paragraph {
+  line-height: 1.7;
+  font-size: 20px;
+  padding-top: 30px;
+}
+@media (max-width: 600px){
+  .heading-box h1 {
+    font-size: 40px
+  }
+  .job-title {
+    padding: 2rem;
+  }
+  .heading-box h2 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .about {
+    padding: 80px 20px 80px 20px;
+  }
 }
