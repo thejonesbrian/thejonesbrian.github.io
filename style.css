@@ -128,6 +128,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .row:after {
   content: "";
@@ -177,7 +178,14 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 } 
-
+.maori {
+  background-image: linear-gradient(
+    rgba(30, 115, 172, 0.7), 
+    rgba(112, 57, 153, 0.6)), url('/image-assets/maori.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .card {
   width: 100%;
   padding: 16px;
